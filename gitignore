@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.log
+
+# Generated dataset files
+# Uncomment the next line if you do not want to track the CSV:
+# gesture_dataset.csv
+
+# Note:
+# The trained model and label encoder are intentionally NOT ignored,
+# because they are required to run VisionSpeak without retraining.
